@@ -20,22 +20,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'flower';
-    src: url('fonts/glyphworld-flower-webfont.woff2') format('woff2'),
-         url('fonts/glyphworld-flower-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'forest';
-    src: url('fonts/glyphworld-forest-webfont.woff2') format('woff2'),
-         url('fonts/glyphworld-forest-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
     font-size: 1.5vw;
     line-height: 1.4em;
@@ -44,6 +28,10 @@
 a {
     color: #000;
     text-decoration: none;
+    
+}
+
+ul {
     font-family: 'airland'
 }
 
@@ -186,7 +174,7 @@ div.manifesto {
         footer  
 *------------------*/
 .back {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'airland', Arial, Helvetica, sans-serif;
     display: inline-block;
     margin: 1rem 0 1.5rem 1.5rem;
     font-size: 5rem;
@@ -196,7 +184,7 @@ div.manifesto {
     color: rgb(0, 255, 0);
     width: 6.5rem;
     height: 3.5rem;
-    line-height: 2.2rem;
+    line-height: 2rem;
     text-align: center;
 }
 
@@ -277,4 +265,5 @@ div.manifesto {
     .social {
             width: 7rem;
     }
+
 }
