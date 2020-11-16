@@ -51,10 +51,6 @@ ul:hover {
     list-style: none;
 }
 
-span {
-    font-family: 'animalsoul';
-}
-
 #drag-object-air {
     position: absolute;
     z-index: 9;
