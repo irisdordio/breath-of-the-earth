@@ -188,7 +188,7 @@ div.manifesto {
 .back {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    margin: 1rem 0 1rem 1.5rem;
+    margin: 1rem 0 1.5rem 1.5rem;
     font-size: 5rem;
     border: solid .1rem #000;
     border-radius: 2rem;
@@ -215,11 +215,31 @@ div.manifesto {
         display: inline-block;
         align-content: center;
     }
+
+    .notepad {
+        width: 9rem;
+    }
+
+    .references {
+        width: 7rem;
+    }
+
+    .social {
+        width: 8.5rem;
+    }
+
+    ul {
+        text-decoration: underline;
+    }
 }
 
 @media screen and (max-width: 769px) {
     :root{
         font-size: 2.5vw;
+    }
+
+    ul {
+        text-decoration: underline;
     }
 
 }
@@ -230,6 +250,10 @@ div.manifesto {
     }
     .menu {
         margin-bottom: 1.5rem;
+    }
+
+    ul {
+        text-decoration: underline;
     }
 
     #drag-object-air {
