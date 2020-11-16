@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "airland";
+    src: url("fonts/GLYPHWORLD-AIRLAND.woff2") format("woff2"), 
+         url("fonts/GLYPHWORLD-AIRLAND.woff") format("woff"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'animalsoul';
+    src: url('fonts/glyphworld-animalsoul-webfont.woff2') format('woff2'),
+         url('fonts/glyphworld-animalsoul-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'flower';
+    src: url('fonts/glyphworld-flower-webfont.woff2') format('woff2'),
+         url('fonts/glyphworld-flower-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'forest';
+    src: url('fonts/glyphworld-forest-webfont.woff2') format('woff2'),
+         url('fonts/glyphworld-forest-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    font-size: 1.5vw;
+    line-height: 1.4em;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'airland'
+}
+
+ul:hover {
+    text-decoration: underline;
+}
+
+/*------------------*
+        menus  
+*------------------*/
+#drag-object {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    list-style: none;
+}
+
+span {
+    font-family: 'animalsoul';
+}
+
+#drag-object-air {
+    position: absolute;
+    z-index: 9;
+    list-style: none;
+}
+  
+#drag-object-2 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 25%;
+    top: 30%;
+    List-style: none;
+}
+
+#drag-object-3 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 10%;
+    top: 60%;
+    List-style: none;
+}
+
+#drag-object-4 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 75%;
+    top: 60%;
+    List-style: none;
+}
+
+.selected-object {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+}
+
+.selected-object-air {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+}
+
+/*------------------*
+    menus > ICONS
+*------------------*/
+
+.notepad {
+    width: 5rem;
+}
+
+.material {
+    width: 15rem;
+}
+
+.references {
+    width: 5rem;
+}
+
+.social {
+    width: 5rem;
+}
+
+/*------------------*
+        home
+*------------------*/
+.index-text {
+    font-family: 'airland';
+    font-size: 1.2rem;
+    line-height: 1.3em;
+    margin: 1.5rem 1.5rem;
+    border: solid .1rem rgb(0, 255, 0);
+    border-radius: .5rem ;
+    padding: .5rem;
+}
+
+.air-icon {
+    margin: 1.5rem 1rem;
+    width: 4rem;
+}
+
+/*------------------*
+    CALL TO ACTION 
+*------------------*/
+div.manifesto {
+    font-family: 'airland';
+    font-size: 1.8rem;
+    line-height: 1.2em;
+    margin: 1rem .5rem;
+}
+
+/*------------------*
+        gallery 
+*------------------*/
+.gallery {
+    margin: 1.5rem .5rem;
+    padding: 1.5rem;
+}
+/*------------------*
+    background  
+*------------------*/
+.gradient-green {
+    z-index: -2;
+    margin: -1rem;
+    padding: -1rem;
+    height: 17rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-image: linear-gradient(180deg, rgba(0,255,0,0), rgba(0,255,0,1));
+    mix-blend-mode: hue;
+}
+
+/*------------------*
+        footer  
+*------------------*/
+.back {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 1rem 0 1rem 1.5rem;
+    font-size: 5rem;
+    border: solid .1rem #000;
+    border-radius: 2rem;
+    background-color: #fff;
+    color: rgb(0, 255, 0);
+    width: 6.5rem;
+    height: 3.5rem;
+    line-height: 2.2rem;
+    text-align: center;
+}
+
+/*------------------*
+    media queries  
+*------------------*/
+@media screen and (max-width: 1025px) {
+    :root {
+        font-size: 2.5vw; 
+    }
+
+    #drag-object, #drag-object-2, #drag-object-3, #drag-object-4 {
+        left: auto;
+        top: auto;
+        position: relative;
+        display: inline-block;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    :root{
+        font-size: 2.5vw;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+    :root{
+        font-size: 4vw;
+    }
+    .menu {
+        margin-bottom: 1.5rem;
+    }
+
+    #drag-object-air {
+    position: relative;
+    margin-bottom: -3rem;
+    text-align: center;
+    }
+
+    #drag-object, #drag-object-2, #drag-object-3, #drag-object-4 {
+            left: auto;
+            top: auto;
+            position: relative;
+            display: inline-block;
+            align-content: center;
+    }
+
+    .material {
+            width: 8rem;
+    }
+
+    .social {
+            width: 7rem;
+    }
+}
