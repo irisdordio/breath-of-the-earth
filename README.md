@@ -1,1 +1,3 @@
 # why-air
+
+A conceptual approach to air pollution and an idea of how healthy oxygen should be a common good and not a future exponential to the economy. From this point, we understood where we had to act, where we had to make a change. We want to change mentalities by doing something. On Earth Day (April 22nd), we propose the projection of our visual and auditive conceptual experiences of air in cultural installations. As we understand that this action of experiencing by visual and written means should be continuous, we want to keep feeding this social movement using social networks and design to bring social change.
