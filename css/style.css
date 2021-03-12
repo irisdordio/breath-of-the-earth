@@ -113,7 +113,7 @@ ul:hover {
 }
 
 .social {
-    width: 5rem;
+    width: 4rem;
 }
 
 /*------------------*
@@ -122,7 +122,7 @@ ul:hover {
 .index-text {
     font-family: 'airland';
     font-size: 1.2rem;
-    line-height: 1.3em;
+    line-height: 1.05em;
     margin: 1.5rem 1.5rem;
     border: solid .1rem rgb(0, 255, 0);
     border-radius: .5rem ;
@@ -135,22 +135,50 @@ ul:hover {
 }
 
 /*------------------*
-    CALL TO ACTION 
+      MANIFESTO 
 *------------------*/
+.back {
+    font-family: 'airland';
+    font-size: 5rem;
+    margin: 1.5rem 0 1.3rem 0.5rem;
+    border: rgb(0, 0, 0) solid 0.2rem;
+    border-radius: 2rem;
+    padding: 0.1rem 0.5rem 1.2rem 0.5rem ;
+    display: inline-block;
+}
+
+.back:hover, .back2:hover {
+    background-color: rgb(0, 255, 0);
+    
+}
+
 div.manifesto {
     font-family: 'airland';
     font-size: 1.8rem;
-    line-height: 1.2em;
-    margin: 1rem .5rem;
+    line-height: 1.1em;
+    margin: 1rem .5rem 0 .5rem;
+}
+
+.marginbottom {
+    margin-bottom: 0.6rem;
+}
+
+.marginbottom2 {
+    margin-bottom: 1.5rem;
 }
 
 /*------------------*
         gallery 
 *------------------*/
-.gallery {
-    margin: 1.5rem .5rem;
-    padding: 1.5rem;
+video {
+    width:100%;
+    height:100%;
 }
+
+.main-video {
+    margin-bottom: 1rem;
+}
+
 /*------------------*
     background  
 *------------------*/
@@ -167,22 +195,13 @@ div.manifesto {
 }
 
 /*------------------*
-        footer  
+    information  
 *------------------*/
-.back {
-    font-family: Arial;
-    display: inline-block;
-    margin: 1rem 0 1.5rem 1.5rem;
-    font-size: 5rem;
-    border-radius: 2rem;
-    color: #000;
-    width: 6.5rem;
-    height: 3.5rem;
-    line-height: 2rem;
-    text-align: center;
+.linkcolor {
+    color: rgb(0, 255, 0);
 }
 
-.back:hover {
+.linkcolor:hover {
     text-decoration: underline;
 }
 
@@ -211,14 +230,10 @@ div.manifesto {
     }
 
     .social {
-        width: 8.5rem;
+        width: 4.3rem;
     }
 
     ul {
-        text-decoration: underline;
-    }
-
-    .back {
         text-decoration: underline;
     }
 }
@@ -232,8 +247,8 @@ div.manifesto {
         text-decoration: underline;
     }
 
-    .back {
-        text-decoration: underline;
+    .social {
+        width: 4.5rem;
     }
 
 }
@@ -257,23 +272,19 @@ div.manifesto {
     }
 
     #drag-object, #drag-object-2, #drag-object-3, #drag-object-4 {
-            left: auto;
-            top: auto;
-            position: relative;
-            display: inline-block;
-            align-content: center;
+    left: auto;
+    top: auto;
+    position: relative;
+    display: inline-block;
+    align-content: center;
     }
 
     .material {
-            width: 8rem;
+        width: 8rem;
     }
 
     .social {
-            width: 7rem;
-    }
-
-    .back {
-        text-decoration: underline;
+        width: 5.5rem;
     }
 
 }
